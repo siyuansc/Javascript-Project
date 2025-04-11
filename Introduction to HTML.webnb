@@ -1,0 +1,38 @@
+# Introduction to HTML
+
+
+## What is HTML?
+
+**HTML** (HyperText Markup Language) is the standard language for creating web pages. It is a "markup language"---a language for adding **structure** and **formatting** to text. More specifically, it is a markup language for creating "hypertext" documents, which are documents that contain links to other documents (the foundation of the World Wide Web).
+
+## Why HTML?
+
+Although our overall focus is on JavaScript, we first need to learn some foundational HTML. We will cover *just enough* HTML (and CSS) to get us started with JavaScript.
+
+## The Three Web Languages
+
+Although our focus is on JavaScript, Web development involves three primary languages:
+
+- **HTML** for defining the structure and content
+- **CSS** for specifying how browsers should render/display this content
+- **JavaScript** for defining the **behavior** of the page---how it reacts to things like clicks and keypresses
+
+
+One way to think about these three languages is to use an analogy with the human body:
+![](js-body-analogy.png)
+- **HTML** is the **skeleton** of the body, providing the structure and shape
+- **CSS** is the **skin** of the body, providing the appearance and style
+- **JavaScript** is the **muscles** of the body, providing the movement and interactivity
+
+JavaScript will be the focus of this specialization but we're going to cover a bit of HTML and CSS to get us enough of a foundation to started.
+
+
+## Using these Notebooks
+
+These notebooks are designed to be interactive. You can run the code cells, edit them, and see the results. You can also add new cells to write your own code.
+
+For example, try editing the text in the following cell:
+
+```{html}
+<p>Hello! Try "running" this by clicking me and then clicking the "play" button to my left.</p>
+```
