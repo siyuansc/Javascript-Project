@@ -1,6 +1,6 @@
 ---
 
-- Lecture01
+### Lecture01
 
 To build interactive applications, we first need a clear way to describe the structure of a webpage. HTML provides this structure. It tells the browser what kind of content it's dealing with—headings, paragraphs, links, images—and how that content is organized on the page. In this course, we won’t focus on HTML for long, but understanding its logic is necessary before we start working with JavaScript and more complex interactions.
 
@@ -10,7 +10,7 @@ This lecture also introduces a few basic rules: tags are case-insensitive, some 
 
 ---
 
-- Lecture02
+### Lecture02
 
 Writing HTML gives you a way to describe the structure of a page—what belongs where, and how different pieces of content relate to one another. But structure alone doesn't tell the full story. If everything on a page is rendered with the same font, the same color, and the same spacing, users are left to guess what's important and what's interactive. A heading might carry semantic weight, but without any visual distinction, it blends into the background. This disconnect between meaning and appearance is where CSS steps in.
 
@@ -23,7 +23,7 @@ So while HTML lays the foundation—defining what elements exist and where they 
 
 ---
 
-- Lecture03
+### Lecture03
 
 So far, HTML has given us structure, and CSS has helped shape its appearance. But a page that only displays content is still passive. Interactivity—the ability for a page to respond to user actions—is what brings modern interfaces to life. This is where JavaScript becomes essential. Unlike HTML and CSS, JavaScript isn’t about what’s on the page or how it looks—it’s about what happens when someone clicks, types, or scrolls.
 
@@ -37,7 +37,7 @@ With JavaScript, the page is no longer just a document—it becomes an environme
 
 ---
 
-- Lecture04
+### Lecture04
 Building an interactive page means more than just displaying updated content—it means responding to what the user does. JavaScript allows us to observe those actions through *event listeners*, which are functions that run when something happens: a button is clicked, a key is pressed, or the mouse moves across the screen. Unlike the static DOM structure defined by HTML, event listeners create a two-way connection between the user and the browser.
 
 Setting up an event listener follows a simple pattern: select an element, define a function, and register it with `addEventListener`. When that event occurs, your function is executed. This pattern is at the core of nearly every modern user interface. A button that counts clicks, a div that changes color, a text field that validates input—all of these are made possible by attaching small pieces of logic to specific user actions.
@@ -50,7 +50,7 @@ The result is a page that doesn't just sit and wait to be read—it listens, rea
 
 ---
 
-- Lecture05
+### Lecture05
 As event listeners become a regular part of our code, the logic behind how and when they run starts to matter more. It's not just about listening for a click—it’s about managing what should happen next, and under what conditions. In this lecture, we start to treat event handling as a pattern: using function objects, sometimes anonymous, and controlling their behavior with conditional logic, class manipulation, and timing.
 
 The key to more dynamic interfaces lies in how we update the DOM. For example, toggling classes with `.classList.add()` and `.classList.remove()` allows us to reflect changes in visual state—like flipping a box from red to blue, or marking an element as “clicked.” These manipulations can be temporary, too, using functions like `setTimeout()` to automatically revert changes after a delay. Small design decisions like these make interfaces feel more responsive, even when the underlying action is simple.
