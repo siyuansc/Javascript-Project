@@ -18,6 +18,23 @@ Lecture 3: The DOM and JavaScript Basics
   - Note: due next Sunday *Anywhere On Earth* (AoE) time
 
 ---
+Reading Paragraph
+
+When we first explored the web, we focused on structure and style—HTML for structure and CSS for appearance. Now, it’s time to bring our pages to life with behavior, and that means diving into JavaScript. Think of HTML as the skeleton of your site, CSS as the skin and clothing, and JavaScript as the muscles—it lets your site move, react, and respond.
+
+JavaScript may look familiar to Python users, but it behaves differently. It’s more permissive, often "guessing" what you meant instead of throwing errors. That flexibility can be powerful—but also dangerous. Where Python forces clarity, JavaScript allows ambiguity. Variables need to be declared using `let` or `const`, and semicolons mark the end of statements, though they’re technically optional.
+
+To write JavaScript, we can include it inline (inside HTML elements), internally (within a `<script>` tag), or externally (in a separate `.js` file). The best practice is to use external scripts and load them with `<script src="script.js"></script>`, ideally with the `defer` attribute so the script runs only after the HTML finishes loading. If you try to access elements before they’re available in the DOM, your script will fail.
+
+JavaScript gives us direct access to the DOM—the browser’s internal representation of the page. Using `document.querySelector()`, we can select and manipulate elements based on their tag name, ID, or class. We can change the content with `.innerText` or `.innerHTML`, and adjust styling by modifying `.classList`. These tools are the foundation of DOM manipulation.
+
+Functions in JavaScript come in many forms, from traditional declarations to concise arrow functions. More importantly, functions are "first-class"—they can be passed around like any other variable. This enables one of the most important patterns in JavaScript: callback functions. We pass one function into another, and it gets called later—like with `setTimeout()` or `addEventListener()`.
+
+Event listeners let us respond to user interactions. Want to do something when a button is clicked? Use `addEventListener('click', callback)`. That callback can then change the text, add a class, or trigger any behavior you like. Combined with DOM access and manipulation, this forms the backbone of interactive applications.
+
+Through this lecture, we’re not just learning syntax. We're learning to think in terms of interaction. JavaScript turns a webpage from something static into something alive. And as we’ll see, the power of this language lies not just in what it can do alone, but in how it works with the structure of HTML and the style of CSS to create fully interactive experiences.
+
+---
 
 # Essential HTML Elements for 379
 
