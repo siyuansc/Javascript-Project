@@ -22,7 +22,7 @@ Lecture 3: The DOM and JavaScript Basics
 
 When we first explored the web, we focused on structure and style—HTML for structure and CSS for appearance. Now, it’s time to bring our pages to life with behavior, and that means diving into JavaScript. Think of HTML as the skeleton of your site, CSS as the skin and clothing, and JavaScript as the muscles—it lets your site move, react, and respond.
 
-JavaScript may look familiar to Python users, but it behaves differently. It’s more permissive, often "guessing" what you meant instead of throwing errors. That flexibility can be powerful—but also dangerous. Where Python forces clarity, JavaScript allows ambiguity. Variables need to be declared using `let` or `const`, and semicolons mark the end of statements, though they’re technically optional.
+JavaScript may look familiar to Python users, but it behaves differently. It’s more permissive, often "guessing" what you meant instead of throwing errors. That flexibility can be powerful but also dangerous. Where Python forces clarity, JavaScript allows ambiguity. Variables need to be declared using `let` or `const`, and semicolons mark the end of statements, though they’re technically optional.
 
 To write JavaScript, we can include it inline (inside HTML elements), internally (within a `<script>` tag), or externally (in a separate `.js` file). The best practice is to use external scripts and load them with `<script src="script.js"></script>`, ideally with the `defer` attribute so the script runs only after the HTML finishes loading. If you try to access elements before they’re available in the DOM, your script will fail.
 
