@@ -17,6 +17,17 @@ Lecture 5: Practice with Event Listeners
 - Reminder Problem Set 1
 
 ---
+## Reading Paragraph
+
+From last time, we saw how JavaScript enables interactivity and user-driven changes to the DOM. Key to this is the concept of functions, which can be declared in multiple ways and used to streamline code. For example, we defined an arrow function like const add = (a, b) => a + b;, making add a reusable, first-class object that returns the sum of two numbers. This approach is especially handy when writing concise, modular code that’s easy to maintain.
+
+We also revisited event listeners, which let our applications respond to user actions. Attaching a callback to an event allows us to execute code whenever a user interacts with the page—be it clicking a button or moving the mouse. For instance, the code element.addEventListener("click", () => console.log("Clicked on element")); demonstrates a simple callback that logs a message every time an element is clicked. It’s important to note that callbacks themselves are functions, and we can define them inline or separately. Just remember, when referencing a callback in code, don’t call it directly with parentheses unless you want it to run immediately.
+
+From before, we learned that the DOM is the central structure of a webpage—essentially a tree that JavaScript can traverse and modify. By selecting elements with document.querySelector() or document.getElementById(), we gain direct control over their properties and appearance. Simple commands like element.innerText = "New text"; or element.classList.add("highlighted"); can dynamically update content and style, making the page react in real-time.
+
+As we continue, these fundamental concepts—functions, event listeners, and DOM manipulation—will form the building blocks of more advanced interactive applications. Remember, each line of code you write not only changes how the page looks or behaves, but also how users experience your content.
+
+---
 
 # From Last time: Defining Functions
 
