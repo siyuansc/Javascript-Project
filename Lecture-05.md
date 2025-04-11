@@ -25,7 +25,7 @@ We also revisited event listeners, which let our applications respond to user ac
 
 From before, we learned that the DOM is the central structure of a webpage—essentially a tree that JavaScript can traverse and modify. By selecting elements with document.querySelector() or document.getElementById(), we gain direct control over their properties and appearance. Simple commands like element.innerText = "New text"; or element.classList.add("highlighted"); can dynamically update content and style, making the page react in real-time.
 
-As we continue, these fundamental concepts—functions, event listeners, and DOM manipulation—will form the building blocks of more advanced interactive applications. Remember, each line of code you write not only changes how the page looks or behaves, but also how users experience your content.
+As we continue, these fundamental concepts—functions, event listeners, and DOM manipulation—will form the building blocks of more advanced interactive applications. Each line of code you write not only changes how the page looks or behaves, but also how users experience your content.
 
 ---
 
