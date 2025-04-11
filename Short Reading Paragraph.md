@@ -1,5 +1,3 @@
----
-
 ### Lecture01
 
 To build interactive applications, we first need a clear way to describe the structure of a webpage. HTML provides this structure. It tells the browser what kind of content it's dealing with—headings, paragraphs, links, images—and how that content is organized on the page. In this course, we won’t focus on HTML for long, but understanding its logic is necessary before we start working with JavaScript and more complex interactions.
