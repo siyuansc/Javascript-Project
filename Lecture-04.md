@@ -31,6 +31,25 @@ Lecture 4: Adding Event Listeners
 - [**Problem set 1**](https://umich.instructure.com/courses/732026/assignments/2599401) is due Sunday (AoE)
 
 ---
+## Reading Paragraph
+
+Now that we’ve introduced JavaScript and seen how it brings interactivity to the web, let’s take a moment to recap some of the key concepts we’ve covered so far—starting with the DOM.
+
+The **Document Object Model (DOM)** is the foundation for all interaction on a webpage. It’s not just something under the hood. It’s what we see in the browser. When we write HTML, we’re actually building the initial DOM tree: a structured representation of all the elements on the page. JavaScript then allows us to manipulate that tree—changing content, updating styles, and responding to user actions. CSS, in turn, controls the visual presentation of this same tree, and browser developer tools let us inspect and debug it live.
+
+To bring JavaScript into our pages, we’ve looked at three options: inline scripts inside HTML elements (which we try to avoid), internal scripts placed in a `<script>` tag, and external JavaScript files linked with `<script src="...">`. The cleanest and most scalable approach is to use **external scripts**, especially with the `defer` attribute, which ensures your code runs *after* the HTML has finished loading. Otherwise, your script might try to modify an element that doesn’t yet exist—and fail silently.
+
+Accessing the DOM with JavaScript is all about **querying**. The `document.querySelector()` method is our go-to tool—it lets us grab any element by tag, class, or ID. Want all matching elements? Use `querySelectorAll()`. Once you’ve selected an element, you can update its `.innerText`, toggle classes with `.classList`, or even attach **event listeners** that respond to things like clicks, input, or mouse movement.
+
+We also explored how JavaScript functions work. They’re not just pieces of code—they’re first-class citizens. You can store them in variables, pass them as arguments, or return them from other functions. This is what powers **callbacks**, where one function is passed into another and called later. Think of `setTimeout()` or `addEventListener()`—these are callback-based functions that wait for a delay or user interaction before firing your code.
+
+Event listeners are key to interaction. With a single line—`element.addEventListener('click', callback)`—you can connect user behavior to changes on your page. And when you're ready to respond to clicks, you can use DOM methods to update the page—change the text of a button, increment a counter, or toggle a class to change color.
+
+Finally, we saw how to manipulate the DOM in practice. Using `.innerText` or `.innerHTML` lets us rewrite content. Using `.classList.add()` or `.classList.toggle()` lets us update styles dynamically. Whether it's creating a button that counts clicks, or a box that switches colors every few seconds, these simple building blocks form the backbone of interactivity in modern web apps.
+
+All of this—HTML for structure, CSS for style, and JavaScript for behavior—comes together in the DOM. And now, you have the tools to not just read or write the DOM, but to bend it to your will.
+
+---
 
 # Recap: The DOM
 
