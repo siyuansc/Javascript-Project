@@ -269,6 +269,21 @@ The *vast majority* of this class will focus on JavaScript. However, we need to 
 (and do as little of it as possible)
 
 ---
+# Reading Paragraph
+
+- When you open a website, what you're seeing is the result of three complementary technologies working together: HTML builds the structure, CSS styles it, and JavaScript makes it interactive. While our journey will eventually center on JavaScript, we need to start with the foundation—HTML—to understand what we're making interactive in the first place.
+
+HTML (HyperText Markup Language) might seem simple, but it's the blueprint that browsers use to understand your content. Think of each HTML tag as giving special meaning to content: a paragraph tag tells the browser "this is a paragraph," while a heading tag signals "this is the main heading." These tags create a rich vocabulary: paragraphs, emphasis for italics, importance for bold text, and headings from major to minor levels.
+
+What makes HTML powerful is how these elements nest together like a family tree. We create relationships: html is the root, body is its child, while headings and paragraphs are siblings that share the same parent. The strong element might be nested as a child of a paragraph, forming a structured hierarchy that browsers use to interpret the page.
+
+HTML elements gain superpowers through attributes—special modifiers in the opening tag. Links use href to specify destinations, images use src to find their pictures and alt to provide descriptions, and some attributes like disabled on buttons don't even need values—their mere presence is enough to trigger behavior.
+
+There are a few more HTML essentials to remember: tags aren't case-sensitive (though lowercase is conventional), empty elements can use self-closing syntax, comments hide content from display, and every HTML document should start with a DOCTYPE declaration to identify itself as HTML5.
+
+While we'll move quickly to JavaScript, this HTML foundation gives us the structure we'll manipulate with JavaScript. We're learning just enough HTML to power what comes next—but that foundation is essential.
+
+---
 
 # HTML
 
