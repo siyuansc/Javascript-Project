@@ -271,7 +271,7 @@ The *vast majority* of this class will focus on JavaScript. However, we need to 
 ---
 # Reading Paragraph
 
-- When you open a website, what you're seeing is the result of three complementary technologies working together: HTML builds the structure, CSS styles it, and JavaScript makes it interactive. While our journey will eventually center on JavaScript, we need to start with the foundation—HTML—to understand what we're making interactive in the first place.
+When you open a website, what you're seeing is the result of three complementary technologies working together: HTML builds the structure, CSS styles it, and JavaScript makes it interactive. While our journey will eventually center on JavaScript, we need to start with the foundation—HTML—to understand what we're making interactive in the first place.
 
 HTML (HyperText Markup Language) might seem simple, but it's the blueprint that browsers use to understand your content. Think of each HTML tag as giving special meaning to content: a paragraph tag tells the browser "this is a paragraph," while a heading tag signals "this is the main heading." These tags create a rich vocabulary: paragraphs, emphasis for italics, importance for bold text, and headings from major to minor levels.
 
