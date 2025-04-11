@@ -18,7 +18,7 @@ Lecture 3: The DOM and JavaScript Basics
   - Note: due next Sunday *Anywhere On Earth* (AoE) time
 
 ---
-Reading Paragraph
+## Reading Paragraph
 
 When we first explored the web, we focused on structure and style—HTML for structure and CSS for appearance. Now, it’s time to bring our pages to life with behavior, and that means diving into JavaScript. Think of HTML as the skeleton of your site, CSS as the skin and clothing, and JavaScript as the muscles—it lets your site move, react, and respond.
 
