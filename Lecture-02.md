@@ -20,7 +20,25 @@ Lecture 2: HTML (continued) and The Basics of CSS
 - If you haven't already, please pull out your laptop and [install Visual Studio Code](https://code.visualstudio.com/)
 
 ---
+# Reading Paragraph
 
+When you browse the web, what appears on your screen is actually the result of carefully structured content and styling working together. HTML creates the structure, like the skeleton of a building, while CSS applies the visual styling—the paint, decorations, and arrangement that make it visually appealing.
+
+HTML might seemingly simple, but it's the blueprint that browsers use to create what's called the Document Object Model (DOM)—a living, interactive representation of your webpage. HTML elements are like building blocks, each created with tags that wrap your content: <tag>content</tag>. These elements form a family tree with clear relationships: the <html> element serves as the root, containing <head> for invisible metadata and <body> for visible content.
+
+Within these containers, we use various semantic elements to give meaning to our content. Headings (<h1> through <h6>) establish importance hierarchy, paragraphs (<p>) contain text blocks, links (<a>) create connections between pages, images (<img>) display visual content, and buttons (<button>) enable interaction. Generic containers like <div> (for block sections) and <span> (for inline sections) help organize content when more specific semantic elements don't apply.
+
+Elements gain extra powers through attributes—modifiers that provide additional information. For example, links need to know where they lead (href), images need their source (src) and descriptive text (alt), and any element can have class or id attributes that help us select them with CSS.
+
+CSS (Cascading Style Sheets) is our design toolkit for controlling how elements display. We can apply CSS in three ways: inline directly on elements using the style attribute, internally within a <style> tag in the document head, or externally in a separate file linked with <link>. CSS rules use selectors to target specific elements (like all paragraphs with p { }, elements with a specific class with .className { }, or a unique element with #idName { }), followed by properties and values that define the appearance.
+
+When multiple CSS rules apply to the same element, the "cascading" part determines which rule wins—generally, more specific selectors take priority, with inline styles overriding all others. This cascading behavior gives CSS tremendous flexibility but requires understanding its priority rules.
+Using semantic HTML—choosing elements based on their meaning rather than just their display—makes your page more accessible to screen readers and search engines. While you could make text look like a heading using CSS on a <div>, using an actual <h1> element communicates its semantic importance to browsers and assistive technologies.
+
+The DOM—the browser's internal representation of your HTML—is what you see and interact with, while HTML is what you write to create it, and CSS is what you write to style it. Developer tools in browsers let you inspect this DOM and see how your code translates to what appears on screen.
+By understanding these foundational concepts, you're building the essential knowledge needed for creating well-structured, visually appealing web content.
+
+---
 # Recall...
 
 - HTML elements are created with **tags**
